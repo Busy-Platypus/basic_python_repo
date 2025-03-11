@@ -33,9 +33,12 @@ git init
 git clone myproject@gitlab.com
 git checkout mybranch
 git checkout .
+git checkout -b newbranch
 git pull origin develop
 git add 
 git commit -m "Commit message"
 git push origin develop
 git log
 ```
+
+It is possible to connect your machine and github using an ssh key.
