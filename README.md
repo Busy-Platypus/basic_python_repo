@@ -19,6 +19,10 @@ Then it is possible to install the code on local machine using
 ```
 uv pip install -e .  
 ```
+It might be interesting to add the path to the environment variables : 
+```
+ [System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";D:\Ronan\Python\TestPythonProject\src\mylib", "User")
+```
 
 To reload and sync the venv (particularly when dependencies are used):
 ```
